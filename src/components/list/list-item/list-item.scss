@@ -1,0 +1,40 @@
+.list__item{
+    list-style-type: none;
+    background-color: #C5E1E5;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-btn{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: grey;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+        &:before{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 2px;
+            background-color: #000;
+            top: 48%;
+            left: 21%;
+            transform: rotate(45deg);
+        }
+        &:after{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 2px;
+            background-color: #000;
+            top: 48%;
+            left: 20%;
+            transform: rotate(-45deg);
+        }
+    }
+}

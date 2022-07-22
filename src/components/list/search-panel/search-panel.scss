@@ -1,0 +1,26 @@
+.search-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    &__btn{
+        height: 46px;
+        font-size: 18px;
+        background-color: #2C6CEA;
+        border: none;
+        border-radius: 5px;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+}
+
+input{
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 7px;
+    width: 100%;
+    margin-right: 30px;
+    &::placeholder{
+        font-size: 14px;
+    }
+}
